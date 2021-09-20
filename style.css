@@ -1,0 +1,272 @@
+  body{
+    margin: 5px;
+    background-color:white;
+  }
+
+a{
+  text-decoration: none;
+
+}
+.box{
+  width: 315px;
+  box-shadow: 2px 2px 30px grey;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%
+  transform:translate(-50%,-50%);
+}
+
+.slider_image{
+  height: 450px;
+}
+
+.slider_image img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+position: relative;
+}
+
+.detail_box{
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+
+
+.name{
+  display:flex;
+  flex-direction: column;
+}
+
+.name a{
+  color: #222222;
+  margin: 5px 0px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding-right: 8px;
+
+}
+.name span{
+  color: green;
+  opacity:0.7;
+}
+
+.price{
+  color:red;
+  font-weight: 600;
+}
+
+/*.overlay {
+  /*position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height:100%;
+  background-color: #ffe6ff;
+  opacity:0.5;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+.buy_button{
+  font-size: 13px;
+  font-weight: 400;
+}
+/*
+.slider_image div:hover{
+  background-color:#fbf6d9;
+}
+*/
+
+/*new- delete from here*/
+.navigationbar ul li{
+  display: inline;
+  float: left;
+  padding:0 20px 0 20px;/*space between the navigation bar elements*/
+}
+
+.navigationbar ul li a{
+  text-decoration: none;
+  font-size:20px;
+  color:black;
+
+}
+
+.navigationbar ul li a:hover{
+    font-size:25px;
+    color: #F02511;
+}
+
+
+header h1{
+  font-family: cursive;
+  color: #A93226;
+  font-size: 45px;
+}
+
+.box2{
+  width: 315px;
+  box-shadow: 2px 2px 30px grey;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-left: -200px;
+  margin-top: 250px;
+  float:left;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+
+.slider_image2{
+  height: 450px;
+}
+
+.slider_image2 img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+position: relative;
+}
+
+.slider_image2 div:hover{
+  background-color:#fbf6d9;
+}
+
+.box3{
+  width: 315px;
+  box-shadow: 2px 2px 30px grey;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 250px;
+  float:left;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+
+.slider_image3{
+  height: 450px;
+}
+
+.slider_image3 img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+position: relative;
+}
+
+.slider_image3 div:hover{
+  background-color:#fbf6d9;
+}
+
+.box4{
+  width: 315px;
+  box-shadow: 2px 2px 30px grey;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 250px;
+  float:left;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+
+.slider_image4{
+  height: 450px;
+}
+
+.slider_image4 img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+position: relative;
+}
+
+.slider_image4 div:hover{
+  background-color:#fbf6d9;
+}
+
+.div1{
+  width:30%;
+  float:left;
+  margin:1.5%;
+  font-family: monospace;
+  font-size:12px;
+
+}
+
+.div2{
+  width:30%;
+  float:left;
+  margin:1.5%;
+  font-family: monospace;
+  font-size:12px;
+}
+
+.div3{
+  width:30%;
+  float:left;
+  margin:1.5%;
+  font-family: monospace;
+  font-size:12px;
+}
+
+.div4last{
+  text-align: center;
+margin-top: 800px;
+}
+
+
+
+/* from style1 */
+
+
+.image {
+  background-image: url("https://cdn.pixabay.com/photo/2016/04/08/18/46/shopping-mall-1316787_1280.jpg");
+  height: 900px;
+  margin-top: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.imagesignin {
+  background-image: url("https://cdn.pixabay.com/photo/2018/02/27/17/41/rose-3186089_1280.jpg");
+  height: 900px;
+  margin-top: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.textsignin {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
